@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightpink;
+            margin: 10%;
+        }
+        h1 { 
+        text-align: center;
+        font-family: "Papyrus", fantasy;
+        }
+        p.letter {
+            text-align: left;
+            font-family: "Lucinda Handrwriting", cursive;
+            font-size: x-large;
+        }
+        p.signature {
+            text-align: right;
+            font-family: "Lucinda Handrwriting", cursive;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Love Letter</h1>
+
+    <p class="letter">Dear Honey,</p>
+
+    <p class="letter">I love you!</p>
+
+    <p class="letter signature">Yours,<br>L</p>
+    
+    <img src="hearts.png" height="100" alt="This is a picture of Love Letter Hearts">
+
+    <br><button onclick="change_bgcolour()">Click me to change BG colour</button> <button onclick="reset_bgcolour()">Click me to reset BG colour</button>
+<script>
+    function change_bgcolour() {
+        document.body.style.backgroundColor= "violet"
+    }
+    function reset_bgcolour() {
+        document.body.style.backgroundColor= "lightpink"
+    }
+</script>
+</body>
+</html>
